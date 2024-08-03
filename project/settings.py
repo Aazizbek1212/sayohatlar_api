@@ -132,11 +132,10 @@ STATICFILES_DIRS = [
 
 
 CKEDITOR_CONFIGS = {
-    'awesome_ckeditor': {
-        'toolbar': 'Full',
-    },
+'default': {
+    'toolbar':'full',
+    }
 }
-
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
