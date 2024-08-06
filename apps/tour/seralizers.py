@@ -34,7 +34,7 @@ class RestaurantSerializer(serializers.ModelSerializer):
 
 
 class TourSerializer(serializers.ModelSerializer):
-    destination = DestinationSerializer(many=True)
+    destinations = DestinationSerializer(many=True)
     class Meta:
         model = Tour
         fields = '__all__'
